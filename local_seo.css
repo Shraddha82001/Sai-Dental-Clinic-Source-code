@@ -1,0 +1,109 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: right;
+    background-color: rgba(0, 0, 255, 0.514);
+    padding-top: 20px;
+    
+}
+nav span{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+}
+.home ul{
+    display: flex;
+    color: white;
+}
+
+.home ul li{
+    list-style: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+.home ul li a{
+    color: white;
+}
+
+
+.home ul li:hover{
+    transition: 0.4s ease;
+    transform: scale(1.2);
+}
+
+body{
+    background-color: rgb(245, 241, 241);
+}
+.container1{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 20px 20px 20px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.container1 h1{
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-weight: bolder;
+    color: crimson;
+    font-size: 35px;
+    margin: 10px 0 10px 0;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #222;    
+}
+.container {
+    padding: 20px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container .box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+
+}
+.container .box .us h6{
+    /* font-family:'Times New Roman', Times, serif; */
+    font-size: 18px;
+    padding-left: 20px;
+}
+iframe{
+    padding: 10px 10px 10px 10px;
+    margin: 10px 50px 10px 10px;
+    border-radius: 10px;
+}
+button{
+    margin: 5% 20% 5% 20%;
+    border-radius: 5px;
+    background-color: slategray;
+    font-size: 15px;
+}
+button:hover{
+    transform: scale(1.3);
+    transition: 1.4s ease;
+    background-color: rgba(128, 128, 128, 0.699);
+}
+a{
+    color: black;
+    font-weight: bolder;
+}
+body{
+    background: url(dental\ background2.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/* p{
+    margin-top: 20px;
+    padding-top: 10px;
+} */

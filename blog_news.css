@@ -1,0 +1,101 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: right;
+    background-color: rgba(0, 0, 255, 0.514);
+    padding-top: 20px;
+}
+nav span{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+}
+.home ul{
+    display: flex;
+    color: white;
+}
+.home ul li{
+    list-style: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+.home ul li a{
+    color: white;
+}
+.home ul li:hover{
+    transition: 0.4s ease;
+    transform: scale(1.2);
+}
+.title h1{
+    font-size: 35px;
+    color: crimson;
+    padding-top: 20px;
+    text-align: center;
+}
+.title h1::after{
+    content: "" ;
+    display: block;
+    width: 200px;
+    height: 3px;
+    background-color: #222;
+    margin: auto;
+}
+.blog{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 75px auto;
+    text-align: center;
+}
+.card{
+    width: 370px;
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 20px;
+    padding: 20px 20px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.card img{
+    width: 250px;
+    height: 250px;
+    padding-bottom: 10px;
+    border-radius: 5px
+}
+.card h3{
+    color: rgb(238, 74, 15);
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.card p{
+    font-size: 13px;
+    color: black;
+    letter-spacing: 1.5;
+}
+a{
+    color: black;
+    font-weight: bolder;
+    /* font-size: 15px; */
+}
+body{
+    background: url(dental\ background2.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+body{
+    background-color: rgb(245, 241, 241);
+}

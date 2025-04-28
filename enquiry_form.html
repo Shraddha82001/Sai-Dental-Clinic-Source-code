@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sai Dental Clinic Enquiry Form</title>
+    <link rel=icon href="Sai dental logo.jpg" type="image">
+    </link>
+    <link rel="stylesheet" href="enquiry_form.css" class="css">
+     <script src="enquiry_form.js"></script>
+</head>
+
+
+<body>
+    <section>
+        <header>
+            <nav>
+                <span>Contact Information :</span>
+                <div class="home">
+                    <ul>
+                        <li><a href="home.html">Home</a> </li> |
+                        <li><a href="gallery.html">Gallery</a> </li> |
+                        <li><a href="about_us.html">About us</a> </li>|
+                        <li><a href="services.html">Services</a></li>|
+                        <li><a href="patient_education.html">Patient Education</a> </li>|
+                        <li><a href="testimonials.html">Testimonials</a> </li>|
+                        <li><a href="contact_information.html">Contact Information</a> </li>|
+                        <li><a href="admission_form.html">Admission Form</a> </li>|
+                        <li><a href="location_and_hours.html">Location and Hours</a> </li>|
+                        <li><a href="blog_news.html">Blog/News</a> </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+    </section>
+
+    <section>
+        <header>
+            <nav>
+                <span>Functionality :</span>
+                <div class="home">
+                    <ul>
+                        <li><a href="Online_appointment_scheduling.html">Online Appointment Scheduling</a></li>|
+                        <li><a href="enquiry_form.html">Enquiry Form</a></li>|
+                        <li><a href="payment_information.html">Payment Information</a></li>|
+                        <li><a href="local_seo.html">Local SEO</a></li> |
+                        <li><a href="Social_media_integration.html">Social Media Integration</a></li>
+                    </ul>
+                </div>
+
+            </nav>
+            <header>
+    </section>
+    <article class="container">
+        <h1>Enquiry Form</h1>
+        <form >
+            <fieldset>
+                <legend>Personal Info</legend>
+                <p>
+                    <label for="username">Your full name: </label>
+                    <input type="text" name="name" id="username" placeholder="Full name" required
+                        autocomplete="additional-name" autofocus>
+                </p>
+                <p>
+                    <label for="email">Email Id: </label>
+                    <input type="text" name="name" id="email" placeholder="Email ID" required autocomplete="email">
+                </p>
+                <p>
+                    <label for="phone">Contact number: </label>
+                    <input type="tel" name="phone" id="phone" pattern="[0-9 {3}] [0-9 {3}] [0-9 {4}]"
+                        placeholder="123-123-5555">
+                </p>
+                <!-- <P>
+                    <label for="enquiry">Enquiry: </label>
+                    <select name="enquiry" id="enquiry">
+                        <option value="location_and_hours">Location and Hours</option>
+                        <option value="Online_appointment_scheduling" selected>Online Appointment Scheduling</option>
+                        <option value="payment_information">Payment Information</option>
+                    </select>
+                </P> -->
+                <P>
+                    <label for="enquiry">Enquiry: </label>
+                    <input name="enquiry" id="enquiry" list="enquiry_form" placeholder="Click here">
+                    <datalist id="enquiry_form">
+                        <option value="Location and hours">
+                        <option value="Online Appointment Scheduling">
+                        <option value="payment Information">
+                    </datalist>
+                </P>
+                <p>
+                    <label for="message">Your message: </label>
+                    <textarea name="message" id="message" placeholder="write here !"></textarea>
+                </p>
+                <br>
+                <button class="submit" onclick="callvalue()">Submit</button>
+                <button class="reset">Reset</button>
+            </fieldset>
+        </form>
+    </article>
+    <p>
+    <ul>
+        <li><a href="#">Back to top</a></li>
+        <li><a href="home.html">Back to home</a></li>
+    </ul>
+    </p>
+</body>
+
+</html>

@@ -1,0 +1,83 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: right;
+    background-color: rgba(0, 0, 255, 0.514);
+    padding-top: 20px;
+    
+}
+nav span{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+}
+.home ul{
+    display: flex;
+    color: white;
+}
+
+.home ul li{
+    list-style: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+.home ul li a{
+    color: white;
+}
+
+
+.home ul li:hover{
+    transition: 0.4s ease;
+    transform: scale(1.2);
+}
+
+.container{
+    font-size: 35px;
+    color: crimson;
+    padding-top: 20px;
+    text-align: center;
+}
+.container::after{
+    content: "";
+    display: block;
+    width: 290px;
+    height: 3px;
+    background-color: #222;
+    margin: auto;
+}
+.testimonials{
+    display: flex;
+    flex-direction: column; 
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    justify-content: space-between;
+}
+.testimonials h2{
+    font-size: 28px;
+    color: black;
+    font-weight: bolder;
+    margin: 20px 10px 20px 10px;
+    padding: 10px 10px 10px 10px;
+}
+body{
+    background-color: rgb(245, 241, 241);
+}
+a{
+    color: black;
+    font-weight: bolder;
+    /* font-size: 15px; */
+}
+body{
+    background: url(dental\ background2.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}

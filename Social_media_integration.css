@@ -1,0 +1,127 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: right;
+    background-color: rgba(0, 0, 255, 0.514);
+    padding-top: 20px;
+    
+}
+nav span{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+}
+.home ul{
+    display: flex;
+    color: white;
+}
+
+.home ul li{
+    list-style: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+.home ul li a{
+    color: white;
+}
+
+
+.home ul li:hover{
+    transition: 0.4s ease;
+    transform: scale(1.2);
+}
+
+ a{
+    color: black;
+    font-weight: bolder;
+    /* font-size: 15px; */
+}
+
+.container{
+    display: flex;
+    margin: 20px 0 10px 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;   
+}
+.container h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: crimson;
+    font-size: 35px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 3px solid #222;
+}
+.container1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px 20px 20px 20px;
+}
+.container1 .box1{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    align-items: center;
+}
+.container1 .box h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+
+}
+.container1 .box img{
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+    align-items: start;
+    padding-bottom: 20px;
+    
+}
+.container1 .box p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    line-height: 1.5;
+    padding-bottom: 20px;
+}
+.container1 .box1 .box nav{
+    padding: 10px 0 10px 0;
+    margin: 10px 0 10px 0;
+    background-color: yellow;
+    border-radius: 10px;
+}
+.container1 .box1 .box nav a{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: bold;
+    letter-spacing: 3px;
+}
+.container1 .box1 .box nav a:hover{
+    background-color: aqua;
+    transform: scale(1.1);
+}
+body{
+    background-color: rgb(245, 241, 241);
+}
+body{
+    background: url(dental\ background2.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+
