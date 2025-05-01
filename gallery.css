@@ -54,7 +54,7 @@ nav span{
    margin: auto;
 }
 .heading p{
-   font-size: 30px;
+   font-size: 20px;
    color: black;
    padding-top: 20px;
    padding-bottom: 20px;
@@ -72,15 +72,19 @@ nav span{
    flex-direction: row;
 }
 .photo img{
-   width: 550px;
+   width: 400px;
    height: auto;
    padding: 20px 20px 20px 20px;
+   margin-right: 20px;
+   margin-left: 20px;
 }
 .button{
     width: 10%;
-    height: auto;
+    height: 10%;
     padding: 20px 20px 20px 20px;
-    margin: 5% 50% 5% 50%;
+    margin: 50% auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
     background-color: #222;
     border-radius: 5px;
     text-align: center;
@@ -93,11 +97,10 @@ nav span{
     letter-spacing: 3px;
  }
  .button:hover{
-   background-color: aqua;
+   background-color: darkcyan;
    transform: scale(1.1);
    transition: 1.4s ease;
- }
- 
+}
 body{
     
     background-color: rgb(245, 241, 241);

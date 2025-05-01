@@ -100,17 +100,18 @@ nav span{
 .container1 .box1 .box nav{
     padding: 10px 0 10px 0;
     margin: 10px 0 10px 0;
-    background-color: yellow;
-    border-radius: 10px;
+    background-color: darkcyan;
+    border-radius: 5px;
 }
 .container1 .box1 .box nav a{
     color: black;
     font-family: 'Times New Roman', Times, serif;
     font-size: bold;
     letter-spacing: 3px;
+    padding: 3px;
 }
 .container1 .box1 .box nav a:hover{
-    background-color: aqua;
+    background-color: lightgray;
     transform: scale(1.1);
 }
 body{

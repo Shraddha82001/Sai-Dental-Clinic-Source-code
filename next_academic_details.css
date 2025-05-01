@@ -83,3 +83,25 @@ a{
     font-weight: bolder;
     /* font-size: 15px; */
  }
+ .display {
+    margin: auto;
+    width: 50%;
+    border: 3px solid #222;
+    padding: 5px;
+    background-color: gainsboro;
+}
+caption{
+    font-size: 20px;
+    font-weight: bolder;
+    padding-bottom: 10px
+}
+th{
+    font-weight: 600;
+    font-size: 18px;
+    border: 2px solid #222;
+}
+td{
+    font-weight: 400;
+    font-size: 16px;
+    border: 2px solid #222;
+}
