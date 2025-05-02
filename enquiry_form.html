@@ -8,9 +8,8 @@
     <link rel=icon href="Sai dental logo.jpg" type="image">
     </link>
     <link rel="stylesheet" href="enquiry_form.css" class="css">
-     <script src="enquiry_form.js"></script>
+    <script src="enquiry_form.js"></script>
 </head>
-
 
 <body>
     <section>
@@ -93,7 +92,7 @@
                     <textarea name="message" id="message" placeholder="write here !"></textarea>
                 </p>
                 <br>
-                <button class="submit" onclick="callvalue()">Submit</button>
+                <button class="submit"onclick ="callvalue()">Submit</button>
                 <button class="reset">Reset</button>
             </fieldset>
         </form>
@@ -101,13 +100,19 @@
 
     <table class="display">
         <caption>Your Response: </caption>
-        <tr>
-            <th>Full name</th>
-            <th>Email Id</th>
-            <th>Contact number</th>
-            <th>Enquiry</th>
-            <th>Your message</th>
-        </tr>
+        <thead>
+            <tr>
+                <th>Full name</th>
+                <th>Email Id</th>
+                <th>Contact number</th>
+                <th>Enquiry</th>
+                <th>Your message</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- New rows will be added here -->
+        </tbody>
+        
     </table>
     <p>
     <ul>
