@@ -1,41 +1,32 @@
-var username = [];
-var email = [];
-var phone = [];
-var enquiry = [];
-var message = [];
+function callvalue() {
+    // Get input values and trim whitespace
+    var username = document.getElementById("username").value.trim();
+    var email = document.getElementById("email").value.trim();
+    var phone = document.getElementById("phone").value.trim();
+    var enquiry = document.getElementById("enquiry").value.trim();
+    var message = document.getElementById("message").value.trim();
 
-var row = 1;
+    // Validate all fields
+    if (!username || !email || !phone || !enquiry || !message) {
+        alert("Please fill all the fields.");
+        return;
+    }
 
-function callvalue(){
-    var username=document.getElementById("username").value;
-    var email=document.getElementById("email").value;
-    var phone=document.getElementById("phone").value;
-    var enquiry=document.getElementById("enquiry").value;
-    var message=document.getElementById("message").value;
+    // Get the table body
+    var tableBody = document.querySelector(".display tbody");
 
-    // Reference to table body
-    var callvalue = document.getElementById('display');
+    // Create a new row and cells
+    var newRow = tableBody.insertRow();
+    newRow.insertCell(0).innerText = username;
+    newRow.insertCell(1).innerText = email;
+    newRow.insertCell(2).innerText = phone;
+    newRow.insertCell(3).innerText = enquiry;
+    newRow.insertCell(4).innerText = message;
 
-    var NewRow = callvalue.insertRow(row);
-
-    var cell1 = NewRow.insertCell(0);
-    var cell2 = NewRow.insertCell(1);
-    var cell3 = NewRow.insertCell(2);
-    var cell4 = NewRow.insertCell(3);
-    var cell5 = NewRow.insertCell(4);
-
-    cell1.innerHTML = username;
-    cell2.innerHTML = email;
-    cell3.innerHTML = phone;
-    cell4.innerHTML = enquiry;
-    cell5.innerHTML = message;
-
-    row++;
- 
-
+    // Clear form fields
     document.getElementById("username").value = '';
     document.getElementById("email").value = '';
     document.getElementById("phone").value = '';
     document.getElementById("enquiry").value = '';
     document.getElementById("message").value = '';
-} 
+}
