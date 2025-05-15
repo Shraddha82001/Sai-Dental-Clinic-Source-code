@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sai Dental Clinic Online Appointment</title>
-    <link rel=icon href="Sai Dental Clinicg" type="image"></link>
+    <link rel=icon href="Sai dental logo.jpg" type="image">
+    </link>
     <link rel="stylesheet" href="online_appointment_scheduling.css" class="css">
     <script src="Online_appointment_scheduling.js"></script>
 </head>
@@ -71,17 +72,17 @@
                 </p>
                 <p>
                     <label for="date">Appointment Date: </label>
-                    <input type="date" name="date" placeholder="Online Appointment Scheduling" required>
+                    <input type="date" name="date" id="date" placeholder="Online Appointment Scheduling" required>
                 </p>
                 <p>
                     <label for="time">Appointment Time: </label>
-                    <input type="time" name="time" placeholder="Online Appointment Scheduling" required>
+                    <input type="time" name="time" id="time" placeholder="Online Appointment Scheduling" required>
                 </p>
                 <p>
                     <label for="gender">Gender: </label>
                     <input type="radio" name="gender" id="male" value="male">
                     <label for="male">Male</label>
-                    <input type="radio" name="gender" id="gender" value="Female">
+                    <input type="radio" name="gender" id="female" value="Female">
                     <label for="female">Female</label>
                     <input type="radio" name="gender" id="Other" value="Other">
                     <label for="Other">Other</label>
@@ -110,23 +111,29 @@
                     <textarea name="address" id="address" placeholder="Your Address" rows="4" cols="50"></textarea>
                 </p>
                 <br>
-                <button class="submit">Submit</button>
-                <button class="reset">Reset</button>
+                <button type="button" class="submit" onclick="callvalue()">Submit</button>
+                <button type="reset" class="reset">Reset</button>
             </fieldset>
         </form>
     </article>
     <table class="display">
         <caption>Your Response: </caption>
-        <tr>
-            <th>Name</th>
-            <th>Email Id</th>
-            <th>Contact Number</th>
-            <th>Appointment Date</th>
-            <th>Appointment Time</th>
-            <th>Gender</th>
-            <th>Dental Department</th>
-            <th>Address</th>
-        </tr>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email Id</th>
+                <th>Contact Number</th>
+                <th>Appointment Date</th>
+                <th>Appointment Time</th>
+                <th>Gender</th>
+                <th>Dental Department</th>
+                <th>Address</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- New will insert -->
+        </tbody>
+
     </table>
     <p>
     <ul>

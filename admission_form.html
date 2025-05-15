@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sai Dental Clinic Admission Form</title>
     <link rel=icon href="Sai dental logo.jpg" type="image">
-    </link>
-    <link rel="stylesheet" href="admission_form.css" class="css">
+    <link rel="stylesheet" href="admission_form.css">
+
 </head>
 
 <body>
@@ -48,7 +48,7 @@
                 </div>
 
             </nav>
-            <header>
+        </header>
     </section>
     <article class="container">
         <h1>Admission Form</h1>
@@ -62,22 +62,22 @@
                 </p>
                 <p>
                     <label for="email">Email ID: </label>
-                    <input type="text" name="email" id="email" placeholder="Email ID" required>
+                    <input type="email" name="email" id="email" placeholder="Email ID" required>
                 </p>
                 <p>
                     <label for="phone">Contact Number: </label>
-                    <input type="tel" name="phone" id="phone" placeholder="123-456-7899"
-                        pattern="[0-9 {3}] [0-9 {3}] [0-9 {4}]">
+                    <input type="tel" name="phone" id="phone" placeholder="123-456-7899" pattern="\d{10}"
+                        title="Enter 10 digit number">
                 </p>
                 <p>
-                    <label for="DOB">Date of Birth: </label>
-                    <input type="date" name="date" placeholder="Date of Birth" required>
+                    <label for="dob">Date of Birth: </label>
+                    <input type="date" name="date" id="dob" placeholder="Date of Birth" required>
                 </p>
                 <p>
                     <label for="gender">Gender: </label>
                     <input type="radio" name="gender" id="male" value="male">
                     <label for="male">Male</label>
-                    <input type="radio" name="gender" id="gender" value="Female">
+                    <input type="radio" name="gender" id="female" value="Female">
                     <label for="female">Female</label>
                     <input type="radio" name="gender" id="Other" value="Other">
                     <label for="Other">Other</label>
@@ -100,7 +100,7 @@
                         <option value="netherlands">Netherlands</option>
                         <option value="denmark">Denmark</option>
                         <option value="dubai">Dubai</option>
-                        <option value="british ">British </option>
+                        <option value="british">British </option>
                         <option value="united_states_of_america">United States of America</option>
                     </select>
                 </p>
@@ -109,16 +109,17 @@
                     <textarea name="address" id="address" placeholder="Your Address" rows="4" cols="50"></textarea>
                 </p>
                 <br>
-                <button><a href="next_admission_details.html">Next Page</a></button>
+              <button type="button" onclick="SavePersonalInfo(event)">Submit & Next</button>
+
             </fieldset>
         </form>
     </article>
-    <p>
-    <ul>
-        <li><a href="#">Back to top</a></li>
-        <li><a href="home.html">Back to home</a></li>
-    </ul>
-    </p>
+    <footer>
+        <ul>
+            <li><a href="#">Back to top</a></li>
+            <li><a href="home.html">Back to home</a></li>
+        </ul>
+    </footer>
 
 
 </body>

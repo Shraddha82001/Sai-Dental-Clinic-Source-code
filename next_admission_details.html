@@ -7,10 +7,11 @@
     <title>Sai Dental Clinic Admission Details</title>
     <link rel="stylesheet" href="next_admission_details.css" class="css">
     <link rel=icon href="Sai dental logo.jpg" type="image">
-    <script src="next_admission_detail.js"></script>
+    <script src="next_admission_detail.js" defer></script>
+
 </head>
 
-<body> <script src="next_admission_detail.js"></script>
+<body>
     <article class="container">
         <h1>Admission Form</h1>
         <form>
@@ -27,11 +28,12 @@
                 </p>
                 <p>
                     <label for="percentage">Marks/Grades Obtained</label>
-                    <input type="number" name="number" placeholder="percentage" min="0" max="100" step="0.01" required>%
+                    <input type="number" name="number" id="percentage" placeholder="percentage" min="0" max="100"
+                        step="0.01" required>%
                 </p>
                 <p>
                     <label for="yearofpassing">Year of Passing: </label>
-                    <input type="date" name="year" placeholder="Year of Passing" required>
+                    <input type="date" name="year" id="yearofpassing" placeholder="Year of Passing" required>
                 </p>
                 <p>
                     <label for="subjects">Subjects Studied: </label>
@@ -42,43 +44,47 @@
                     </select>
                 </p>
                 <p>
-                    <label for="enterence">Entrance Exam Scores: </label>
-                    <input type="number" id="enterence" name="number" placeholder="Entrance Exam Scores" min="0"
+                    <label for="entrance">Entrance Exam Scores: </label>
+                    <input type="number" id="entrance" name="number" placeholder="Entrance Exam Scores" min="0"
                         max="100" step="0.01">
                 </p>
 
                 <br>
 
-                <button>
-                    <a href="admission_form.html">Previous Page</a>
-                </button>
+                <a href="admission_form.html" class="button">Previous Page</a>
 
                 <br><br>
+                <button type="button" class="submit" onclick="callvalue(event)">Submit</button>
+                <button type="reset" class="reset">Reset</button>
 
-                <button class="submit">Submit</button>
-                <button class="reset">Reset</button>
+
             </fieldset>
         </form>
     </article>
     <table class="display">
         <caption>Your Respones: </caption>
-        <tr>
-            <th>Name</th>
-            <th>Email Id</th>
-            <th>Contact Number</th>
-            <th>Date of Birth</th>
-            <th>Gender</th>
-            <th>Category</th>
-            <th>Nationality</th>
-            <th>Address</th>
-            <th>Previous College</th>
-            <th>Board/University</th>
-            <th>Marks/Grades Obtained</th>
-            <th>Year of Passing</th>
-            <th>Subjects Studied</th>
-            <th>Entrance Exam Scores</th>
-        </tr>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email Id</th>
+                <th>Contact Number</th>
+                <th>Date of Birth</th>
+                <th>Gender</th>
+                <th>Category</th>
+                <th>Nationality</th>
+                <th>Address</th>
+                <th>Previous College</th>
+                <th>Board/University</th>
+                <th>Marks/Grades Obtained</th>
+                <th>Year of Passing</th>
+                <th>Subjects Studied</th>
+                <th>Entrance Exam Scores</th>
+            </tr>
+        </thead>
 
+        <tbody>
+            <!-- New row will insert -->
+        </tbody>
     </table>
     <p>
     <ul>
