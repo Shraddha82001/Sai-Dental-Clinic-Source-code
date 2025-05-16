@@ -7,6 +7,7 @@
     <title>Sai Dental Clinic Admission Form</title>
     <link rel=icon href="Sai dental logo.jpg" type="image">
     <link rel="stylesheet" href="admission_form.css">
+    <script src="admission_form.js"></script>
 
 </head>
 
@@ -52,7 +53,7 @@
     </section>
     <article class="container">
         <h1>Admission Form</h1>
-        <form>
+        <form id="form">
             <fieldset>
                 <legend>Personal Information</legend>
                 <p>
@@ -109,7 +110,10 @@
                     <textarea name="address" id="address" placeholder="Your Address" rows="4" cols="50"></textarea>
                 </p>
                 <br>
-              <button type="button" onclick="SavePersonalInfo(event)">Submit & Next</button>
+                <div>
+                    <button type="button"  onclick="SavePersonalData(event)">Submit & Next</button>
+                </div>
+             
 
             </fieldset>
         </form>
@@ -123,3 +127,4 @@
 
 
 </body>
+</html>

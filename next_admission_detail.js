@@ -14,10 +14,10 @@ for (let key in admissionDetails){
     if (!admissionDetails[key]){
         alert("Please fill all the boxes");
         return;
-    }
-}
+    } 
+}   
 
-const personalData = JSON.parse(localStorage.getItem("personalInfo"));
+    const personalData = (JSON.parse(localStorage.getItem('personalInfo')));
 
 
 if(!personalData){
