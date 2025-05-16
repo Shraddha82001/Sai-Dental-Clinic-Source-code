@@ -4,6 +4,9 @@ This is my first git repository.
 
 This project is done by me for my better practice purpose. It contains all basic things which are required for a web developer in coding. This project will give idea of development of frontend by basic level to advance level of HTML, CSS and JavaScript. I have done this project by using HTML, CSS and JavaScript code for for Sai Dental Clinic. I have use Visual Studio Code is a rich text editor. This project contain all detail structure view of clinic and facilities provided by clinic. Detail clinic geography address is also visible. Let's begin with coding...
 
+Here are some snapshots of my project it will give you all idea of my work which I have done in my project:
 
-![specialized departments output  28 march 2025](https://github.com/user-attachments/assets/002e32f7-5041-4108-9873-22dff1826e20) width = 100px
+![specialized departments output  28 march 2025](https://github.com/user-attachments/assets/002e32f7-5041-4108-9873-22dff1826e20)
+![Javascript of enquiry form output of multi row add](https://github.com/user-attachments/assets/f3a532e1-a7d1-4ad1-b352-3558dd263467)
+
 
